@@ -1,0 +1,29 @@
+/* CSS DOCUMENT */
+
+body, html {
+    height: 100%;
+}
+
+.bg {
+    background-image: url("planet-space.jpg");
+    background-color: #000;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text-container {
+    padding-top: 30vh;
+}
+
+h2 {
+    color: #fff;
+}
+
+p {
+    color: #fff;
+    font-size: 21px;
+}
+

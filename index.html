@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>Astro Weight Calculator</title>
+  </head>
+  <body>
+    <div class="bg">
+      <!-- Write your markup here -->
+    <div class="text-container">
+    <div class="col-sm-4"></div>
+    <div class="col-sm-4 text-center">
+      <h2>How much would you weigh on the following planets?</h2>
+      <input id="userWeight" type="text" placeholder="Weight (lbs)" />
+      <select id="planets" type="select"></select><br /><br />
+
+      <p id="output"></p>
+      <button id="calculateButton">Calculate</button>
+    </div>
+    <div class="col-sm-4"></div>
+    </div>
+    
+
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script src="main.js" charset="utf-8"></script>
+    <script src="parameters.js"></script>
+  </body>
+</html>
